@@ -1,0 +1,244 @@
+.logo {
+  width: 80px;
+}
+
+.navbar-custom {
+  background-color: #ffffff;
+}
+.navbar.navbar-custom.navbar-brand {
+  background-color: #ffffff;
+}
+a.nav-link {
+  color: #1a1c20;
+  font-size: 18px;
+  font-weight: 570;
+  font-family: "Nunito", sans-serif;
+}
+.nav-item {
+  padding-right: 15px;
+}
+a:hover {
+  color: #c59d5f;
+}
+a:visited {
+  text-decoration: underline;
+  text-decoration-color: #1a1c20;
+}
+.headerimg {
+  background-image: url("./images/headerimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 555px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.frostedglass {
+  width: 30rem;
+  height: 20rem;
+  box-shadow: 0 0 0rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+}
+.welcome {
+  font-family: "Dancing Script", cursive;
+  font-size: 120px;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+}
+.hmb {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 570;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  margin-top: -5px;
+}
+.discover {
+  font-family: "Dancing Script", cursive;
+  font-size: 100px;
+  font-weight: 800;
+  color: #c59d5f;
+  text-align: center;
+  margin-top: 150px;
+}
+.ourstory {
+  color: #1a1c20;
+  font-size: 48px;
+  font-weight: 570;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  margin-top: -50px;
+}
+.images {
+  padding-top: 40px;
+}
+.fimg {
+  height: 500px;
+  width: auto;
+}
+.vcol {
+  height: fit-content;
+}
+.snowflake {
+  text-align: center;
+}
+.legacy {
+  color: #1a1c20;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.menulink {
+  text-align: center;
+}
+.menulink > a {
+  color: #c59d5f;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+.menulink > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #c59d5f;
+}
+.grid {
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-left: 40px;
+}
+.fgrid {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.fimg2 {
+  height: 500px;
+  width: 332px;
+}
+.reservation {
+  padding-bottom: 40px;
+}
+.footer {
+  background-color: #c59d5f;
+  text-align: center;
+}
+.wh {
+  text-align: left;
+}
+.workinghours {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  font-weight: 800;
+  color: #1a1c20;
+  padding-top: 15px;
+}
+.timings {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+}
+.icons {
+  display: inline;
+  float: left;
+  padding-top: 20px;
+}
+.contact {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  font-weight: 800;
+  color: #1a1c20;
+  padding-top: 15px;
+  text-align: left;
+  padding-left: 20px;
+}
+.moreicons {
+  float: left;
+  padding-left: 20px;
+}
+.text {
+  color: #ffffff;
+  font-size: 20px;
+}
+.fa-2x {
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+//CSS for menu page
+.back {
+  text-align: right;
+}
+.menuimg {
+  background-image: url("./images/menu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 555px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.dmenu {
+  font-family: "Dancing Script", cursive;
+  font-size: 120px;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+}
+.titletext {
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  font-weight: 800;
+  color: #c59d5f;
+  text-align: center;
+  padding: 20px;
+}
+.description {
+  color: #1a1c20;
+  font-size: 29px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+.desc {
+  background-color: #ffffff;
+}
+.southind {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  font-weight: 800;
+  color: #c59d5f;
+  text-align: left;
+  padding-left: 30px;
+}
+.line {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  border: 0.5px solid #1a1c20;
+}
+.sfood {
+  color: #1a1c20;
+  font-size: 29px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-align: left;
+  margin-left: 14px;
+}
+.price {
+  color: #1a1c20;
+  font-size: 29px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-align: Right;
+  list-style-type: none;
+  margin-right: 27px;
+}
