@@ -90,6 +90,25 @@ a:visited {
     font-size: 10vw;
     line-height: 1;
   }
+  .dmenu {
+    font-size: 17vw !important;
+  }
+  .titletext {
+    font-size: 10vw !important;
+  }
+  .description {
+    font-size: 5vw !important;
+  }
+  .sfood,
+  .price {
+    font-size: 5vw !important;
+  }
+  .southind {
+    font-size: 8vw !important;
+  }
+  .navbar-brand {
+    font-size: 5vw !important;
+  }
 }
 
 #about {
