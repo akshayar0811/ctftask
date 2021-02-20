@@ -1,170 +1,246 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!--BootstrapCDN-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
 
     <!--ExternalCSS-->
-    <link rel = "stylesheet" href = "styling.css">
+    <link rel="stylesheet" href="styling.css" />
 
     <!--ScriptLinks-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
     <!--Fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">  
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">   
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <!--FontAwesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <title>Landing page</title>
-
   </head>
   <body>
-    <nav class="navbar navbar-custom navbar-expand-sm">
-      <a class="navbar-brand" href="#">
-        <img src="images/logo.jpeg" alt="logo" class= "logo">
-      </a>
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="menu.html">Menu</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#reservation">Reservations</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
-      <div class = "headerimg container-fluid" id = "home">
-        <div class = "frostedglass">
-          <div class = "welcome">
-            Welcome
-          </div>
-          <div class = "hmb">Hotel Muruga Bhavan</div>
+    <div class="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
+        <a class="navbar-brand mr-auto" href="#">Hotel Muruga Bhavan</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reservation">Reservations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
         </div>
-      </div>
+      </nav>
+    </div>
 
-    <div class = "about container-fluid" id = "about">
+    <div class="headerimg container-fluid" id="home">
+      <div class="frostedglass">
+        <div>
+          <div class="welcome">Welcome</div>
+          <div class="hmb">Hotel Muruga Bhavan</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about container-fluid" id="about">
       <div class="row">
-        <div class="col-sm-5">
-          <div class = "discover">Discover</div>
-          <div class = "ourstory">Our story</div>
-          <div class = "snowflake">
-            <i class="fa fa-align-center fa-snowflake-o"></i>
-          </div>
-          <p class = "legacy">
-            Hotel Muruga Bhavan started as a small home run food business in 1958 in the bustling city of madras. Today it is a multi-cuisine restaurant with several branches all over India. Our business might have grown but the taste of our food remains as authentic as ever.
-          </p>
-        </div>
-        <div class="col-sm-7 images">
-          <div class = "row">
-            <div class="col-sm-6 vcol">
-              <img src = "images/foodimg1.jpg" alt = "fimg1" class = "fimg">
+        <div class="col-lg-5 flexContainer">
+          <div>
+            <div class="discover">Discover</div>
+            <div class="ourstory">Our story</div>
+            <div class="snowflake">
+              <i class="fa fa-align-center fa-snowflake-o"></i>
             </div>
-            <div class="col-sm-6 vcol">
-              <img src = "images/foodimg2.jpg" alt = "fimg2" class = "fimg">
-            </div>
+            <p class="legacy">
+              Hotel Muruga Bhavan started as a lgall home run food business in
+              1958 in the bustling city of madras. Today it is a multi-cuisine
+              restaurant with several branches all over India. Our business
+              might have grown but the taste of our food remains as authentic as
+              ever.
+            </p>
           </div>
         </div>
-      </div>
-    </div>
-    <div class = "menu container-fluid">
-      <div class = "row">
-        <div class = "col-sm-6 grid">
-          <div class = "row">
-            <div class = "col-sm-6">
-              <img src = "images/rosaimg1.jpg" alt = "fimg2" class = "fgrid">
+        <div class="col-lg-7 images">
+          <div class="row">
+            <div class="col-lg-6 vcol">
+              <img src="images/foodimg1.jpg" alt="fimg1" class="fimg" />
             </div>
-            <div class = "col-sm-6">
-              <img src = "images/rosaimg2.jpg" alt = "fimg2" class = "fgrid">
+            <div class="col-lg-6 vcol">
+              <img src="images/foodimg2.jpg" alt="fimg2" class="fimg" />
             </div>
-          </div>
-          <div class = "row">
-            <div class = "col-sm-6">
-              <img src = "images/rosaimg3.jpg" alt = "fimg2" class = "fgrid">
-            </div>
-            <div class = "col-sm-6">
-              <img src = "images/rosaimg4.jpg" alt = "fimg2" class = "fgrid">
-            </div>
-          </div>
-        </div>
-        <div class = "col-sm-6">
-          <div class = "discover">Discover</div>
-          <div class = "ourstory">Our Menu</div>
-          <div class = "snowflake">
-            <i class="fa fa-align-center fa-snowflake-o"></i>
-          </div>
-          <p class = "legacy">
-            For those with pure food indulgence in mind, come next door and sate your desires with our ever changing internationally and seasonally inspired small plates.  We love food, lots of different food, just like you.
-          </p>
-          <div class = "menulink">
-            <a href = "#">View Full Menu</a>
           </div>
         </div>
       </div>
     </div>
-    <div class = "reservation container-fluid" id = "reservation">
+
+    <div class="menu container-fluid">
       <div class="row">
-        <div class="col-sm-5">
-          <div class = "discover">Discover</div>
-          <div class = "ourstory">A Culinary Delight </div>
-          <div class = "snowflake">
-            <i class="fa fa-align-center fa-snowflake-o"></i>
+        <div class="col-lg-6 grid">
+          <div>
+            <img src="images/rosaimg1.jpg" alt="fimg2" class="fgrid" />
           </div>
-          <p class = "legacy">
-            We promise an intimate and relaxed dining experience that offers something different to local and foreign patrons and ensures you enjoy a memorable food experience every time.
-          </p>
-          <div class = "menulink">
-            <a href = "#">Book A Table Now!</a>
+          <div>
+            <img src="images/rosaimg2.jpg" alt="fimg2" class="fgrid" />
+          </div>
+          <div>
+            <img src="images/rosaimg3.jpg" alt="fimg2" class="fgrid" />
+          </div>
+          <div>
+            <img src="images/rosaimg4.jpg" alt="fimg2" class="fgrid" />
           </div>
         </div>
-        <div class="col-sm-7 images">
-          <div class = "row">
-            <div class="col-sm-6 vcol">
-              <img src = "images/res1.jpg" alt = "fimg1" class = "fimg2">
+        <div class="col-lg-6 flexContainer">
+          <div class="menuCon">
+            <div class="discover">Discover</div>
+            <div class="ourstory">Our Menu</div>
+            <div class="snowflake">
+              <i class="fa fa-align-center fa-snowflake-o"></i>
             </div>
-            <div class="col-sm-6 vcol">
-              <img src = "images/foodimg3.jpg" alt = "fimg2" class = "fimg2">
+            <p class="legacy">
+              For those with pure food indulgence in mind, come next door and
+              sate your desires with our ever changing internationally and
+              seasonally inspired lgall plates. We love food, lots of different
+              food, just like you.
+            </p>
+            <div class="menulink">
+              <a href="#">View Full Menu</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class = "footer container-fluid" id = "contact">
-      <div class = "row">
-        <div class = "col-sm-6">
-          <div class = "contact">Get in touch with us!</div>
-            <ul class = "list-unstyled">
-              <li class = "text moreicons"><i class = "fa fa-map-marker fa-2x"></i> Bangalore, India</li>
-              <li class = "text moreicons"><i class = "fa fa-phone fa-2x"></i> +91 9538295670</li>
-              <li class = "text moreicons"><i class = "fa fa-paper-plane fa-2x"></i> hotelmurugabhavan@gmail.com</li>
-            </ul>
-        </div>
-        <div class = "col-sm-6">
-          <div class = "wh">
-            <div class = "workinghours">Working Hours</div>
-            <div class = "timings">Monday - Friday : 9am-11pm</div>
-            <div class = "timings">Weekends : 9am-12pm</div>
+
+    <div class="reservation container-fluid" id="reservation">
+      <div class="row">
+        <div class="col-lg-5 flexContainer">
+          <div class="resCon">
+            <div class="discover">Discover</div>
+            <div class="ourstory">A Culinary Delight</div>
+            <div class="snowflake">
+              <i class="fa fa-align-center fa-snowflake-o"></i>
+            </div>
+            <p class="legacy">
+              We promise an intimate and relaxed dining experience that offers
+              something different to local and foreign patrons and ensures you
+              enjoy a memorable food experience every time.
+            </p>
+            <div class="menulink">
+              <a href="#">Book A Table Now!</a>
+            </div>
           </div>
-          <div class = "icons">
-            <a href="#"><i class="fa fa-facebook fa-2x fa-fw" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-instagram fa-2x fa-fw" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-twitter fa-2x fa-fw" aria-hidden="true"></i></a>
+        </div>
+        <div class="col-lg-7 images">
+          <div class="row">
+            <div class="col-lg-6 vcol">
+              <img src="images/res1.jpg" alt="fimg1" class="fimg2" />
+            </div>
+            <div class="col-lg-6 vcol">
+              <img src="images/foodimg3.jpg" alt="fimg2" class="fimg2" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer container-fluid" id="contact">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="contact">Get in touch with us!</div>
+          <ul class="list-unstyled">
+            <li class="text moreicons">
+              <i class="fa fa-map-marker faCon"></i> Bangalore, India
+            </li>
+            <li class="text moreicons">
+              <i class="fa fa-phone faCon"></i> +91 9538295670
+            </li>
+            <li class="text moreicons">
+              <i class="fa fa-paper-plane faCon"></i>
+              hotelmurugabhavan@gmail.com
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6 con">
+          <div class="wh">
+            <div class="workinghours">Working Hours</div>
+            <div class="timings">Monday - Friday : 9am-11pm</div>
+            <div class="timings">Weekends : 9am-12pm</div>
+          </div>
+          <div class="icons">
+            <a href="#"
+              ><i class="fa fa-facebook fa-2x fa-fw" aria-hidden="true"></i
+            ></a>
+            <a href="#"
+              ><i class="fa fa-instagram fa-2x fa-fw" aria-hidden="true"></i
+            ></a>
+            <a href="#"
+              ><i class="fa fa-twitter fa-2x fa-fw" aria-hidden="true"></i
+            ></a>
           </div>
         </div>
       </div>
